@@ -4,7 +4,7 @@ public class Animal {
 	// atributos
 	private String nombre;
 	private int tpoVida;
-	
+
 	// constructor con dos parámetros
 	protected Animal(String nombre, int tpoVida) {
 		super();

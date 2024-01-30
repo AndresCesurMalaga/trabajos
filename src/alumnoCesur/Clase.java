@@ -78,7 +78,7 @@ class Clase {
 				indice++;
 			}
 		}
-		if (encontrado==true) {
+		if (encontrado == true) {
 			numAlumnos--;
 			for (int i = indice; i < numAlumnos; i++) {
 				alumnos[i] = alumnos[i + 1];
@@ -120,7 +120,7 @@ class Clase {
 	public void listadoAlumnos() {
 		System.out.println("Listado alumnos de la clase: " + nombreClase);
 		for (int i = 0; i < numAlumnos; i++) {
-			System.out.println(alumnos[i]+" , alumno posicion: "+i);
+			System.out.println(alumnos[i] + " , alumno posicion: " + i);
 		}
 	}
 

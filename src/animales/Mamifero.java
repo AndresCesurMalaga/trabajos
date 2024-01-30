@@ -15,6 +15,5 @@ public class Mamifero extends Animal {
 	public void setVelloCorporal(boolean velloCorporal) {
 		this.velloCorporal = velloCorporal;
 	}
-	
-	
+
 }

@@ -1,0 +1,24 @@
+https://www.geeksforgeeks.org/socket-programming-in-java/
+recibir distintos tipos de datos
+Escribir el mensaje que se quiere enviar
+Codificar el mensaje
+Generar la cabecera
+Unir la cabecera al mensaje
+Enviar el mensaje
+
+Recibir el mensaje
+Leer la cabecera
+Interpretar los datos adecuadamente
+
+Cabecera:
+Inicio del mensaje: 10
+Mensaje de tamaño fijo de bits que depende del tipo (no se envia)
+ID del paquete: A1
+	A -> nombre
+	1 -> orden
+Tipo de dato: 00
+	00 int
+	01 float
+	11 string
+	10 bool
+Cola: 01
